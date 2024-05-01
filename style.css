@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color:aquamarine;
+}
+img{
+    height: 650px;
+  width:500px
+}
+.container{
+   display: flex;
+  flex-direction: row;
+}
+h1{
+   text-align: center;
+  background:linear-gradient( to left, aqua, purple,pink);
+  color:black;
+}
+.items{
+  height: 600px;
+  width:48%;
+  text-align: center;
+}
+.wow{
+  
+  height: 276px;
+  border: 4px purple double;
+  margin-left: 650px;
+  background-color: hotpink;
+  margin: 20px 10px;
+  padding: 50px;
+  font-size: 30px;
+  border-radius: 8px;
+}
+.container3{
+   width:100%;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  grid-row-gap: 101px;
+  grid-column-gap:101px ;
+}
+.items3{
+  text-align: center;
+  
+}
